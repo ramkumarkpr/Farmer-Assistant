@@ -1,0 +1,13 @@
+{
+  "appName": "Farmer Assistant",
+  "greeting": "Welcome",
+  "weather": "Weather",
+  "mandiPrices": "Market Prices",
+  "diseaseScan": "Crop Disease",
+  "settings": "Settings",
+  "camera": "Camera",
+  "calendar": "Calendar",
+  "farmingLands": "Farming Lands",
+  "logout": "Logout",
+  "fertilizerDetails": "Fertilizer Details"
+}

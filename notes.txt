@@ -1,0 +1,11 @@
+npx expo install @react-navigation/native @react-navigation/native-stack react-native-screens react-native-safe-area-context
+npm install i18next react-i18next axios @tanstack/react-query
+npx expo install expo-location expo-notifications expo-speech @react-native-async-storage/async-storage
+npx expo install react-native-safe-area-context @expo/vector-icons
+npm install i18next react-i18next
+npx expo install @react-navigation/native @react-navigation/native-stack react-native-screens react-native-safe-area-context
+
+===== tailwind css =====
+npx expo install nativewind react-native-reanimated react-native-safe-area-context
+npm install --save-dev tailwindcss@^3.4.17
+===== tailwind css =====
