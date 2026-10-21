@@ -38,27 +38,45 @@ export default function HomeScreen({ navigation }: Props) {
         <BigButton
           label={t("weather")}
           icon="partly-sunny"
-          onPress={() => {}}
+          onPress={() => navigation.navigate("Weather")}
         />
         <BigButton
           label={t("mandiPrices")}
           icon="pricetag"
-          onPress={() => {}}
+          onPress={() => navigation.navigate("MandiPrice")}
         />
-        <BigButton label={t("diseaseScan")} icon="leaf" onPress={() => {}} />
-        <BigButton label={t("camera")} icon="camera" onPress={() => {}} />
-        <BigButton label={t("calendar")} icon="calendar" onPress={() => {}} />
+        {/* <BigButton
+          label={t("diseaseScan")}
+          icon="leaf"
+          onPress={() => navigation.navigate("CropDisease")}
+        /> */}
         <BigButton
+          label={t("calendar")}
+          icon="calendar"
+          onPress={() => navigation.navigate("Calendar")}
+        />
+        {/* <BigButton
           label={t("farmingLands")}
           icon="sparkles"
           onPress={() => {}}
         />
         <BigButton
           label={t("fertilizerDetails")}
-          icon="settings"
+          icon="layers"
           onPress={() => {}}
         />
-        <BigButton label={t("settings")} icon="settings" onPress={() => {}} />
+        <BigButton
+          label={t("investment")}
+          icon="analytics"
+          onPress={() => {}}
+        />
+        <BigButton
+          label={t("chatting")}
+          icon="chatbox-ellipses"
+          onPress={() => {}}
+        /> */}
+
+        {/* <BigButton label={t("settings")} icon="settings" onPress={() => {}} /> */}
       </ScrollView>
 
       <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>

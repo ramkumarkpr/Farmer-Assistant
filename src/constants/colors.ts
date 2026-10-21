@@ -10,4 +10,5 @@ export const colors = {
   panelDark: "#1b4d1f",
   blobLight: "#4c9a4a",
   blobDark: "#1f5a24",
+  light: "#ffff",
 };
